@@ -33,7 +33,7 @@ var basket = {
     return total;
   },
 
-  checkDeal: function(deal){
+  dealCheck: function(deal){
     deal.discount(this);
   }
 }
